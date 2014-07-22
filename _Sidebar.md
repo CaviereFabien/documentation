@@ -2,6 +2,7 @@
 * [[Wiki home|Home]]
 * [[Requirements|Essential-tools-and-environmental-requirements]]
 * [[Installation|Installation]]
+* [[Software architecture|software-architecture]]
 * [[Data management|Data-management]]
 	* [[First data resource|First-data-resource]]
 * [[Advanced topics|Advanced-topics]]
