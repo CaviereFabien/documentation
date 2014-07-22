@@ -13,14 +13,15 @@ To get them, clone the ALA-install repo at <https://github.com/AtlasOfLivingAust
     $ vagrant up
 
 At this time, you should see an ubuntu instance up and running if you open VirturalBox:
-Atlas of Living Australia Portal > 02 Installation > virtual box.png
+
+![VirtualBox UI](/AtlasOfLivingAustralia/documentation/wiki/img/virtual_box.png)
 
 As of 28 May 2014, you might see "default: stdin: is not a tty" in red. This doesn't harm because if you do:
 
     $ vagrant ssh
 
 You can login to the ubunto instance you've just set up:
-Atlas of Living Australia Portal > 02 Installation > vagrant ssh.png
+![vagrant ssh](/AtlasOfLivingAustralia/documentation/wiki/img/vagrant_ssh.png)
 
 ###Ansible###
 Now you're ready to configure the ubuntu server with Ansible.
@@ -31,7 +32,7 @@ To run the Ansible playbook:
 
 The playbook should be finished. There might be some minor non-aborting errors which don't harm. In that case, please file an issue so the developers can investigate. Thanks!
 
-Atlas of Living Australia Portal > 02 Installation > ansible finished.png
+![ansible finished](/AtlasOfLivingAustralia/documentation/wiki/img/ansible_finished.png)
 
 The ALA demo portal should be accessible now. For convenience, as in the Vagrantfile the hostname is set as ala.vagrant.dev and it has an IP address 10.1.1.2, adding a line in /etc/hosts:
 
@@ -39,7 +40,7 @@ The ALA demo portal should be accessible now. For convenience, as in the Vagrant
 
 …will allow you to visit the ALA demo portal from the hosting machine.
 
-Atlas of Living Australia Portal > 02 Installation > ala.vagrant.dev.png
+![vagrant ssh](/AtlasOfLivingAustralia/documentation/wiki/img/ala.vagrant.dev.png)
 
 Congratulations! Your demo ALA portal is up and running.
 
