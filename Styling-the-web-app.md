@@ -23,12 +23,20 @@ The basic steps are:
 ## Edit config file
     cd yourOrg-hub/grails-app/conf
 Edit `Config.groovy` in your text editor and modify the line:
+
     skin.layout = 'generic'
     skin.orgNameLong = 'Generic Data Portal'
 to
+
     skin.layout = 'yourOrg'
     skin.orgNameLong = 'Your Org Name'
 You may want to point the app at a local version of `biocache-service` by adding/editing the line:
+
     biocache.baseUrl=http://yourOrg.org/biocache-service
 
 ## Edit layout
+
+The layout file is a **GSP** file, which is similar to the Java **JSP** file format, with some minor differences (see Grails docs). The generic-hub (~ biocache-hubs plugin) uses the **Bootstrap** CSS framework, so there are some HTML elements that are required to be present for all pages to render properly.
+* details to come
+
+## Add custom CSS and JS files
