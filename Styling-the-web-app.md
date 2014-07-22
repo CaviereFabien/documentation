@@ -36,7 +36,39 @@ You may want to point the app at a local version of `biocache-service` by adding
 
 ## Edit layout
 
-The layout file is a **GSP** file, which is similar to the Java **JSP** file format, with some minor differences (see Grails docs). The generic-hub (~ biocache-hubs plugin) uses the **Bootstrap** CSS framework, so there are some HTML elements that are required to be present for all pages to render properly.
+The layout file is a **GSP** file, which is similar to the Java **JSP** file format, with some minor differences (see Grails docs). Grails uses the [SiteMesh](https://github.com/sitemesh/sitemesh2) library to provide common HTML component to pages. The generic-hub (~ biocache-hubs plugin) uses the **Bootstrap** CSS framework, so there are some HTML elements that are required to be present for all pages to render properly.
 * details to come
 
 ## Add custom CSS and JS files
+
+Grails provides a mechanism to manage static resources (CSS, JS and images), called the [Resources plugin](http://grails-plugins.github.io/grails-resources/), and we recommend using this feature. 
+
+Resources are declared in the file `yourOrg-hub/grails-app/conf/ApplicationResources.groovy`, with related files being managed as **modules**. Modules can `dependOn` other modules, which provides a way of making sure dependent files appear before the calling file (e.g. a jQuery plugin will `dependOn` jQuery and thus jQuery will be printed to the page before the plugin). 
+
+The layout file contains a require tag that states which modules are required for all pages that use that particular layout file. E.g.
+
+     <r:require modules="bootstrap2, hubCore" />
+
+To add a new module, simply add a reference to the module:
+
+    <r:require modules="bootstrap2, hubCore, youOrg" />
+
+and then add that module to `ApplicationResources.groovy`:
+
+    yourOrg {
+        dependsOn 'bootstrap2', 'hubCore' //
+        resource url: [dir:'css', file:'yourOrg.css']
+        resource url: [dir:'js', file:'yourOrg.js']
+    }
+
+## Examples
+
+There are a number of custom skinned web apps in the [AtlasOfLivingAustralia](https://github.com/AtlasOfLivingAustralia?query=-hub) Github repo that you can refer to for ideas/help with skinning your copy of generic-hub:
+
+* [ala-hub](https://github.com/AtlasOfLivingAustralia/ala-hub)
+* [ozcam-hub](https://github.com/AtlasOfLivingAustralia/ozcam-hub)
+* [obis-hub](https://github.com/AtlasOfLivingAustralia/obis-hub)
+* [avh-hub](https://github.com/AtlasOfLivingAustralia/avh-hub)
+* [appd-hub](https://github.com/AtlasOfLivingAustralia/appd-hub)
+
+
