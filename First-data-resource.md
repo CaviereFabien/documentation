@@ -11,14 +11,15 @@ At the very bottom of the page, two features are available for this task: 1) [Ad
 
 For the purpose of testing, we want to see occurrence point on the map later. So instead of getting country data dump from GBIF Portal directly, we could instead manually create a DwC-A with search criteria that include geo-referenced occurrences. An example being [geo-referenced holotype specimens in Denmark](http://www.gbif.org/occurrence/search?HAS_COORDINATE=true&SPATIAL_ISSUES=false&COUNTRY=DK&TYPE_STATUS=LECTOTYPE), which only contains 7 records and the archive here:
 
-Assuming the file is 0008542-140429114108248.zip
-
+[0008542-140429114108248.zip](/AtlasOfLivingAustralia/documentation/wiki/files/0008542-140429114108248.zip)
 ###Create a data resource on the ALA site###
 
 Now,
+
 1. Click 'upload' GBIF File;
 1. Find the file in your desktop and click "upload";
 1. The result being like this page:
+
 ![Result of uploading](/AtlasOfLivingAustralia/documentation/wiki/img/result_of_uploading.png)
 
 Remember the UID: dr0 in the first section. This UID will be what we use for the next indexing and processing step.
