@@ -9,6 +9,7 @@ The basic steps are:
 * Edit `Config.groovy` to use the new layout file
 * Edit `yourOrg.gsp` file 
 * Create custom CSS (and optional JS) files
+* Add custom i18n 
 
 ## Fork and rename
 
@@ -61,6 +62,14 @@ and then add that module to `ApplicationResources.groovy`:
         resource url: [dir:'js', file:'yourOrg.js']
     }
 
+## Custom internationalisation (i18n)
+
+The **core** plugin file ([biocache-hubs](https://github.com/AtlasOfLivingAustralia/biocache-hubs)) already has i18n codes and some language implementations of these (e.g. chinese). To add a custom translation or alternative values for i18n labels, create or edit the apporopriate i18n file in:
+
+    grails-app/i18n
+
+Details to come.
+
 ## Examples
 
 There are a number of custom skinned web apps in the [AtlasOfLivingAustralia](https://github.com/AtlasOfLivingAustralia?query=-hub) Github repo that you can refer to for ideas/help with skinning your copy of generic-hub:
@@ -70,5 +79,4 @@ There are a number of custom skinned web apps in the [AtlasOfLivingAustralia](ht
 * [obis-hub](https://github.com/AtlasOfLivingAustralia/obis-hub)
 * [avh-hub](https://github.com/AtlasOfLivingAustralia/avh-hub)
 * [appd-hub](https://github.com/AtlasOfLivingAustralia/appd-hub)
-
 
