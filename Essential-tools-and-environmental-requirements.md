@@ -12,10 +12,8 @@ Using a Macintosh as an example, here are steps to get these tools ready:
 1. [Download VirtualBox](https://www.virtualbox.org/wiki/Downloads) and install the downloaded package.
 1. To install Ansible, the easiest way is to install via [homebrew](http://brew.sh/). It's also handy to have [the Command Line Tools for Mac OS X](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/) installed. Once ready, the following commands will install Ansible:
     
-```sh
-    $ brew update
-    $ brew install ansible
-```
+        $ brew update
+        $ brew install ansible
 
 The recommended server requirements are:
 * Virtual machine with Ubuntu 12 or 13.
