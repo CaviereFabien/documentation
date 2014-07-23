@@ -39,7 +39,7 @@ to
 
 You may want to point the app at a local version of `biocache-service` by adding/editing the line:
 
-    biocache.baseUrl = 'http://yourOrg.org/biocache-service'
+    biocache.baseUrl = "http://yourOrg.org/biocache-service"
 
 
 **Note:** if using external properties file, then omit the quote characters around string values.
