@@ -22,8 +22,13 @@ The basic steps are:
     cp genric.gsp yourOrg.gsp
 
 ## Edit config file
-    cd yourOrg-hub/grails-app/conf
-Edit `Config.groovy` in your text editor and modify the line:
+There are two mechanisms for configuring the web app:
+* external config file (properties file) - default location: `/data/appName/conf/appName-config.properties`
+* internal Grails config file at: `/grails-app/conf/Config.groovy`
+
+External config values will take precedence over those in Config.groovy. The ala-demo uses the external config file and this is the recommended way of setting config values.
+
+Change the following vars (in either external or internal file):
 
     skin.layout = 'generic'
     skin.orgNameLong = 'Generic Data Portal'
@@ -31,9 +36,13 @@ to
 
     skin.layout = 'yourOrg'
     skin.orgNameLong = 'Your Org Name'
+
 You may want to point the app at a local version of `biocache-service` by adding/editing the line:
 
-    biocache.baseUrl=http://yourOrg.org/biocache-service
+    biocache.baseUrl = 'http://yourOrg.org/biocache-service'
+
+
+**Note:** if using external properties file, then omit the quote characters around string values.
 
 ## Edit layout
 
