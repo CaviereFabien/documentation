@@ -2,7 +2,7 @@
 
 Name indexing happens during the "processing" phase of ingestion. If a customised/national checklist is required, a new name index can be created.
 
-###Playbook###
+###Playbook nameindexer-standalone.yml###
 Assuming you have an instance of ALA portal running, when you need to use your own name index, or update the existing name index, you want to run it separately so it doesn't potentially break the running service.
 
 So as the tutorial of building a customised name index, we start from a vanilla vagrant ubuntu box.
@@ -71,7 +71,7 @@ If only a few datasets with a rather small number (< ~5m) of record, you would s
 
     biocache> index -dr [druid]
 
-But if it's more than that, you would do:
+But if it's more than that, you should do:
 
     biocache> bulk-processor
 
