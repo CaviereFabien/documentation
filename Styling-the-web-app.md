@@ -64,11 +64,7 @@ and then add that module to `ApplicationResources.groovy`:
 
 ## Custom internationalisation (i18n)
 
-The **core** plugin file ([biocache-hubs](https://github.com/AtlasOfLivingAustralia/biocache-hubs)) already has i18n codes and some language implementations of these (e.g. chinese). To add a custom translation or alternative values for i18n labels, create or edit the apporopriate i18n file in:
-
-    grails-app/i18n
-
-Details to come.
+See the separate wiki page: [Internationalization](https://github.com/AtlasOfLivingAustralia/documentation/wiki/Internationalization)
 
 ## Examples
 
@@ -79,4 +75,3 @@ There are a number of custom skinned web apps in the [AtlasOfLivingAustralia](ht
 * [obis-hub](https://github.com/AtlasOfLivingAustralia/obis-hub)
 * [avh-hub](https://github.com/AtlasOfLivingAustralia/avh-hub)
 * [appd-hub](https://github.com/AtlasOfLivingAustralia/appd-hub)
-
