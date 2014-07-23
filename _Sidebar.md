@@ -8,7 +8,7 @@
 * [[Advanced topics|Advanced-topics]]
 	* [[Styling the web app|Styling-the-web-app]]
 	* [[Creating a name index|Creating-name-index]]
-	* [[Internationalization|Internationalization]]
+	* [[Internationalization i18n|Internationalization-i18n]]
 	* [[Linking CMS|Linking-cms]]
 	* [[Crawing|Crawing]]
 	* [[Building from source|Building-from-source]]
