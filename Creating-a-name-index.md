@@ -1,4 +1,4 @@
-##Creating your own name index##
+##Overview##
 
 Name indexing happens during the "processing" phase of ingestion. If a customised/national checklist is required, a new name index can be created.
 
