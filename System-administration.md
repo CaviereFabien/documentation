@@ -1,6 +1,4 @@
-#System administration (draft)#
-
-##Backing up Cassandra##
+##Backing up Cassandra data store##
 
 Backing up Cassandra is essentially making a snapshot of occurrence store.
 
