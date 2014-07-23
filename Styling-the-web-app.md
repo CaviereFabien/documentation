@@ -73,7 +73,7 @@ and then add that module to `ApplicationResources.groovy`:
 
 ## Custom internationalisation (i18n)
 
-See the separate wiki page: [Internationalization](https://github.com/AtlasOfLivingAustralia/documentation/wiki/Internationalization)
+See the separate wiki page: [[Internationalization (i18n)|Internationalization-(i18n)]]
 
 ## Examples
 
