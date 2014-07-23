@@ -1,0 +1,3 @@
+Grails uses the standard Java way of providing internationalisation - using messages.properties and a messages taglib for use in GSP pages. Language detection can be triggered by the browser providing a **locale** value or by providing an additional request parameter called "lang". E.g. add `?lang=es` to a request URL.
+
+The client webapp (e.g. generic-hub) inherits some internationalisation properties from the **biocache-hubs** plugin, which in turn, inherits further properties from **biocache-service** (via a webservice call). Custom i18n properties can be added/overrided by including the appropriate messages file.
