@@ -8,7 +8,7 @@ Assuming you have an instance of ALA portal running, when you need to use your o
 So as the tutorial of building a customised name index, we start from a vanilla vagrant ubuntu box.
 
     $ cd ala-install/vagrant/ubuntu
-		$ vagrant status
+    $ vagrant status
 
 At this point, if you have a vagrant box running, consider destroy it and start a fresh one.
 
