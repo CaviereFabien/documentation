@@ -1,4 +1,4 @@
-This page provides index to cases of customisations made to the generic-hub web app. To add a case, create a new list item below and link it to a new Markdown file under the `cases` directory.
+This page provides index to cases of customisations made to the generic-hub web app. To add a case, create a new list item below and link it to a new Markdown file prefixed with 'case-'.
 
 ####List of cases####
-* [[GBIF example|cases/GBIF-example]]
+* [[GBIF example|case-GBIF-example]]
