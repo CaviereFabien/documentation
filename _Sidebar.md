@@ -14,8 +14,4 @@
 	* [[Building from source|Building-from-source]]
 	* [[System administration|System-administration]]
 * [[Cases of customisations|Cases-of-customisations]]
-  * [[GBIF Argentina|GBIF-Argentina]]
-  * [[GBIF Costa Rica|GBIF-Costa-Rica]]
-  * [[GBIF France|GBIF-France]]
-  * [[GBIF Spain|GBIF-Spain]]
 * [[Miscellaneous|Miscellaneous]]
