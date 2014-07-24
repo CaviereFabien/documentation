@@ -7,6 +7,7 @@
 	* [[First data resource|First-data-resource]]
 * [[Advanced topics|Advanced-topics]]
 	* [[Styling the web app|Styling-the-web-app]]
+  * [[Configuring generic hub|Configuring-generic-hub]]
 	* [[Creating a name index|Creating-a-name-index]]
 	* [[Internationalization (i18n)|Internationalization-(i18n)]]
 	* [[Linking CMS|Linking-cms]]
