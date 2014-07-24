@@ -16,8 +16,8 @@ Where indexed occurrence data is stored:
 Connect to Cassandra and have a glimpse of stored records:
 
     $ cassandra-cli
-		[default@unknown] use occ;
-		[default@occ] list occ limit 1;
+    [default@unknown] use occ;
+    [default@occ] list occ limit 1;
 		
 In the last line an UUID is generated automatically by Cassandra. As long as a record is contained by the same data resource determined by __druid__, the UUID will be stable.
 
