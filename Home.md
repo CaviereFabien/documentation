@@ -7,7 +7,7 @@ This is an open project, and users are encouraged to get involved - please [use 
 ####Principles####
 1. We maintain documentation mainly by using the wiki. To clone the wiki repo, you do:
 
-    $ git clone https://github.com/AtlasOfLivingAustralia/documentation.wiki.git
+      $ git clone https://github.com/AtlasOfLivingAustralia/documentation.wiki.git
 
 2. We for now deliberately keep the documentation project itself empty and only use the wiki part for documentation. This means we don't work on the https://github.com/AtlasOfLivingAustralia/documentation.git repo but https://github.com/AtlasOfLivingAustralia/documentation.wiki.git.
 
