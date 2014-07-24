@@ -1,9 +1,9 @@
 It is possible to have multiple web applications with custom user interface and showing data for a particular Hub using a single backend server.
 
 Basic steps
- *Styling your portal
- *Create and configure the hub in the Collectory
- *Configure the web app to show the records of the new hub
+* Styling your portal
+* Create and configure the hub in the Collectory
+* Configure the web app to show the records of the new hub
 
 For details about styling see [[Styling the web app|Styling-the-web-app]]
 
