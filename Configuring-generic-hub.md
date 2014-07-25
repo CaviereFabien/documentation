@@ -13,7 +13,7 @@ In the **Members** section add the identifier of the Institutions, Collections a
 
 ## Configure the web app
 Find the UID of the hub you already created in the Collectory admin interface.
-In the web app config file add the property with the appropiate UID.
+In the web app config file (grails-app/conf/config.groovy) add the property with the appropiate UID.
 
     biocache.queryContext = "data_hub_uid:dh1"
 
