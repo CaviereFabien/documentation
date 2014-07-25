@@ -1,3 +1,7 @@
+In this section:
+* Backing up Cassandra data store
+* Backing up Solr index
+
 ##Backing up Cassandra data store##
 
 Backing up Cassandra is essentially making a snapshot of occurrence store.
@@ -32,7 +36,7 @@ Assuming it's the first time we make a snapshot, this directory should be empty 
 
 (By default this directory is owned by root so you will need to __sudo__.)
 
-Now make a snapshot of `occ`, which we store occurrence data:
+Now, make a snapshot of `occ`, which we store occurrence data:
 
     $ nodetool snapshot occ
 
@@ -49,4 +53,22 @@ A directory `1406163740504` is created under `/data/cassandra/data/occ/occ/snaps
 Chances are you want to use a remote Cassandra instance. To do this, update `listen_address: localhost` in `/etc/cassandra/cassandra.yaml` by replacing 'localhost' with the domain name of the remote Cassandra.
 
 ##Backing up Solr index##
-To be written.
+(@todo Synopsis)
+
+The Solr index is stored at `/data/solr/biocache/data`. Looking inside the `data` directory you see `index` and `tlog` directories. `data` is the unit you want to back up.
+
+###Making a copy of Solr index###
+
+    $ cd /data/solr/biocache
+    $ sudo mkdir solr-index-backup
+    $ sudo chown tomcat7:tomcat7 solr-index-backup
+
+At the point, for the `index` and `tlog` inside `solr-index-backup`, you can copy them from `/data/solr/biocache/data` from localhost or a remote host. Once those contents are in place, make sure they have owner and group set as `tomcat7`, which is the default user/group on Ubuntu that runs Tomcat.
+
+Now, you are going to create a Solr core that uses this backup and can be swapped later. To do so, navigate your browser to the Solr admin at `http://10.1.1.2/solr/#/~cores/biocache` and click 'Add core' and enter values as the image shows:
+![Add Solr core](/AtlasOfLivingAustralia/documentation/wiki/img/solr-index-backup.png)
+
+Once the new core is successfully created, click the new core and see if all details of 'Core' and 'Index' section are all the same except file directories:
+![Check Solr core detials](/AtlasOfLivingAustralia/documentation/wiki/img/solr-index-backup-details.png)
+
+When ready, you can use the 'Swap' feature to use the backup.
