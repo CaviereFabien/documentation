@@ -30,7 +30,7 @@ This is done through the command-line interface. Now navigate to ala-install/vag
 
     $ vagrant ssh
 
-Then, for now, continue the rest as the root user:
+Then, depending on whether the data directory is owned by root, continue the rest as the root user:
 
     $ sudo su
 
@@ -40,7 +40,7 @@ Start the biocache console:
 
 Load, Sample, Process, Index the dr0 resource we have just uploaded:
 
-    biocache> ingest dr0
+    biocache> ingest -dr dr0
 
 At this point, visit http://10.1.1.2/collectory/public/show/dr0 and you can see that the ALA site is aware of those records in the uploaded archive.
 ![After uploading](/AtlasOfLivingAustralia/documentation/wiki/img/after.png)
