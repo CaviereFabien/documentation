@@ -23,6 +23,6 @@ The config variables starting with `facets.` are responsible for this:
 
 * **`facets.include`** - comma separated list of fields to include (usually only those fields not in the default set as specified by `${biocache.baseUrl}/search/facets`)
 * **`facets.exclude`** - comma separated list of fields to exclude. i.e. fields in the default set you don't want to appear
-* **`facets.hide`** -  comma separated list of field that would be included the facet column but that you want to be hidden (i.e. unticked in the "customise filters" drop down). So these fields will be displayed if the user changes the default display settings and chooses to turn them on.
+* **`facets.hide`** -  comma separated list of field that would be included in the facet column, that you want to be hidden (i.e. un-ticked in the "customise filters" drop down menu). These fields will be displayed if the user changes the default display settings and chooses to turn them on.
 
-Note you can also change the **default set** of facets but this is set in the **biocache-service** application, also via config vars (I think). You may also want to change the way facets are **grouped** together (see `${biocache.baseUrl}/search/grouped/facets`).
+Note, you can also change the **default set** of facets but this is set in the **biocache-service** application, also via config vars (I think). You may also want to change the way facets are **grouped** together (see `${biocache.baseUrl}/search/grouped/facets`).
