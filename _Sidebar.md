@@ -2,7 +2,7 @@
 * [[Wiki home|Home]]
 * [[Requirements|Essential-tools-and-environmental-requirements]]
 * [[Installation|Installation]]
-* [[Software architecture|software-architecture]]
+* [[Software architecture|Atlas-software-architecture]]
 * [[First data resource|First-data-resource]]
 * [[Advanced topics|Advanced-topics]]
  * [[Styling the web app|Styling-the-web-app]]
