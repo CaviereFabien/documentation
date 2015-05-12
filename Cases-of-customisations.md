@@ -4,13 +4,13 @@ This page provides index to cases of customisations made to the generic-hub web 
 
 # [[Spain|http://datos.gbif.es/generic-hub/]]
 
->>* List of specific customization in the Data Portal of GBIF SPain:
+>* List of specific customization in the Data Portal of GBIF SPain:
 
->> 1.  General customizations:
+> 1.  General customizations:
 
->> 2.  Biocache-hub customizations:
+> 2.  Biocache-hub customizations:
 
->> 3.  Collectory customizations:
+> 3.  Collectory customizations:
 
 
 
