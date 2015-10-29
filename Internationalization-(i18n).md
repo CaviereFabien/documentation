@@ -17,9 +17,73 @@ and follow the Java naming convention of `messages_xx_XX.properties`. The ALA is
 
 [http://grails.org/plugin/lang-selector](http://grails.org/plugin/lang-selector).
 
-In this page you have the instructions to do the correctly configuration in your module.
+In this page you have the instructions to do the correctly configuration of lang-selector plugin in your module.
 Now, we are going to suppose that you have to install and configurate this plugin in generic-hub.
 
-1) You have to include in the BuildConfig.grrovy in the sections of plugins this code:
-runtime ":lang-selector:0.3"
+1) You have to include in the section of plugins of BuildConfig.grrovy this code:
+
+    runtime ":lang-selector:0.3"
+
+ 2) After this, you can add the tag to your gsp. For example, you can include it in the header sections of /grails-app/views/laouts/generic.gsp to see the lang selector in all views of your generic-hub module. 
+
+    <ul class="nav pull-right">
+       <li class="dropdown">
+           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Language<b class="caret"></b></a>
+           <ul class="dropdown-menu">
+               <li><langs:selector langs="ca"/></li>
+               <li><langs:selector langs="en"/></li>
+               <li><langs:selector langs="es"/></li>
+           </ul>
+       </li>
+    </ul>
+
+3) Optionally you can add this property to the /grails-app/conf/Config.groovy to tell the plugin which flag display for the language:
+
+    com.mfelix.grails.plugins.langSelector.lang.flags = ["es":"es",
+                                                     "en":"gb",
+                                                     "fr":"fr",
+                                                     "da":"dk",
+                                                     "de":"de",
+                                                     "it":"it",
+                                                     "ja":"jp",
+                                                     "nl":"nl",
+                                                     "ru":"ru",
+                                                     "th":"th",
+                                                     "zh":"cn",
+                                                     "pt":"pt",
+                                                     "ca":"catalonia"]
+   
+Also, you can do this in the collectory module.
+
+Now we are going to suppose that you don't want to have a flags, maybe for more accesibility or for other reasons. In this case, you have to modify the code of this plugin. To do that you have to download the plugin, calling it locally in the /grails-app/BuildConfig.groovy, and you have to modify /lang-selector-0.3/grails-app/views/langSelector/_selector.gsp:
+
+BuildConfig.groovy:
+
+    grails.plugin.location.'lang-selector' = "plugins/lang-selector-0.3"
+
+
+_selector.gsp:
+
+    <div id="lang_selector">
+    <span style="color:white"><g:message code="1" default="|"/></span>
+	<g:each in="${flags.keySet().sort() }" var="lang">
+		<a href="${ uri + lang }" title="${message(code:'tittle.lang_link')}">
+			<span class="lang_flag ${ lang==selected.toString()? selected_class : not_selected_class }" style="margin-left: 14px;">
+			<g:if test="${flags[lang] == 'catalonia'}">
+			        <g:message code="1" default="Català"/>
+			</g:if>
+			<g:if test="${flags[lang] == 'gb'}">
+			        <g:message code="1" default="English"/>
+			</g:if>
+
+			<g:if test="${flags[lang] == 'es'}">
+			        <g:message code="1" default="Español"/>
+			</g:if>
+			<%--<img alt="" src="${resource(plugin:'langSelector',dir:'images/flags/png',file:flags[lang]+'.png') }" border="0">--%>
+			</span>
+		</a>
+		<span style="color:white"><g:message code="1" default="|"/></span>
+	</g:each>
+</div>
+
 
