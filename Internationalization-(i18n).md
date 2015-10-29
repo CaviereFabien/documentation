@@ -12,3 +12,14 @@ Grails i18n files are found in:
 and follow the Java naming convention of `messages_xx_XX.properties`. The ALA is keen to get contributions for non-English translations, either via pull requests to biocache-hubs project or by sending us a patch file or individual properties files.
 
 **Note:** If you want to contribute in the i18n project, please visit the page of the project: [https://crowdin.com/project/ala-i18n/](https://crowdin.com/project/ala-i18n/) and request your participation to one of managers.
+
+## How to include language selector in your project:
+
+[http://grails.org/plugin/lang-selector](http://grails.org/plugin/lang-selector).
+
+In this page you have the instructions to do the correctly configuration in your module.
+Now, we are going to suppose that you have to install and configurate this plugin in generic-hub.
+
+1) You have to include in the BuildConfig.grrovy in the sections of plugins this code:
+runtime ":lang-selector:0.3"
+
