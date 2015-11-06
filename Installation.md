@@ -28,7 +28,7 @@ Now you're ready to configure the ubuntu server with Ansible.
 To run the Ansible playbook:
 
     $ cd ../../ansible/
-    $ ansible-playbook -i inventories/vagrant_all ala-demo.yml --private-key ~/.vagrant.d/insecure_private_key -u vagrant -s
+    $ ansible-playbook -i inventories/vagrant/demo-vagrant ala-demo.yml --private-key ~/.vagrant.d/insecure_private_key -u vagrant -s
 
 The playbook should be finished. There might be some minor non-aborting errors which don't harm. In that case, please file an issue so the developers can investigate. Thanks!
 
