@@ -25,7 +25,7 @@ Link :
 
 Speaker : Dave Martin (Atlas of Living Australia)<br />
 Type : presentation <br />
-Link :
+Link : [Launching Atlas of Living Scotland](https://docs.google.com/presentation/d/1l08S0u0nznCdAPeihtYHGE_DX3Ny-wbnKMJqichadSU/edit)
 
 Speaker : Luis Eugenio Barbosa (GBIF Brazil)<br />
 Type : presentation <br />
