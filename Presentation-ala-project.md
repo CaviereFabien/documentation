@@ -35,6 +35,10 @@ Speaker : Miguel Carboni (GBIF Argentina) <br />
 Type : presentation <br />
 Link : 
 
+Speaker : Rui Figueira <br />
+Type : presentation <br />
+Link : [GBIF.PT report](https://drive.google.com/file/d/0BxXroyZNSkrUb1lmNmlvSEZkc0U/view?usp=sharing)
+
 Speaker : Marie-Elise Lecoq (GBIF France) <br />
 Type : presentation <br />
 Link : [Atlas of Living France (ALF)](https://drive.google.com/file/d/0B8pUDYEQpQ1kQ1c3Rm5xTGIwNGs/view?usp=sharing)
