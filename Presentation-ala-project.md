@@ -33,7 +33,7 @@ Link :
 
 Speaker : Miguel Carboni (GBIF Argentina) <br />
 Type : presentation <br />
-Link : 
+Link : [Argentina Status](https://drive.google.com/file/d/0B8pUDYEQpQ1kSkN0dlBIT3BHNWc/view?usp=sharing)
 
 Speaker : Rui Figueira <br />
 Type : presentation <br />
