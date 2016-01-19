@@ -4,7 +4,7 @@
 * [[Installation|Installation]]
 * [[Software architecture|Atlas-software-architecture]]
 * [[First data resource|First-data-resource]]
-* [[Advanced topics|Advanced-topics]]
+* Advanced topics
  * [[Styling the web app|Styling-the-web-app]]
  * [[Configuring generic hub|Configuring-generic-hub]]
  * [[Creating a name index|Creating-a-name-index]]
@@ -14,4 +14,12 @@
 * [[Cases of customisations|Cases-of-customisations]]
 * [[Miscellaneous|Miscellaneous]]
 * [[Presentation|Presentation-ala-project]]
+* Production environments
+ * [[GBIF Spain | Gbif-spain-prod]]
+ * [[GBIF France | Gbif-france-prod]]
+ * [[GBIF Portugal | Gbif-portugal-prod]]
+ * [[GBIF Argentina | Gbif-argentina-prod]]
+ * [[Atlas of Living Scotland | als-prod]]
+ * [[Atlas of Living Australia | ala-prod]]
+
 * [[Roadmap|RoadMap]]
