@@ -15,11 +15,11 @@ Link : [The GBIF France new portal : Atlas of Living France (ALF)](https://drive
 
 Speaker : Paco Pando (GBIF Spain) <br />
 Type : presentation <br />
-Link : []()
+Link : [ALA for nodes](https://drive.google.com/file/d/0BzNtzhUIIHeNX2Z1TUZESV9XMVE/view?usp=sharing)
 
 ##### Atlas of Living Australia Workshop - Madrid, Spain - 10/20/2015 to 10/23/2015 #####
 
-Speaker : Santiago Martinez de la Riva (GBIF Spaine) <br />
+Speaker : Santiago Martinez de la Riva (GBIF Spain) <br />
 Type : presentation <br />
 Link :
 
