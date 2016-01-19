@@ -13,7 +13,7 @@
  * [[System administration|System-administration]]
 * [[Cases of customisations|Cases-of-customisations]]
 * [[Miscellaneous|Miscellaneous]]
-* [[Presentation|Presentation-ala-project]]
+* [[Presentations|Presentation-ala-project]]
 * Production environments
  * [[GBIF Spain | Gbif-Spain-Production-environment]]
  * [[GBIF France | Gbif-france-prod]]
