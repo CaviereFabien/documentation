@@ -18,7 +18,7 @@ and follow the Java naming convention of `messages_xx_XX.properties`. The ALA is
 [http://grails.org/plugin/lang-selector](http://grails.org/plugin/lang-selector).
 
 In this page you have the instructions to do the correctly configuration of lang-selector plugin in your module.
-Now, we are going to suppose that you have to install and configurate this plugin in generic-hub.
+Now, we are going to suppose that you want to install and configurate this plugin in generic-hub.
 
 1) You have to include in the section of plugins of BuildConfig.grrovy this code:
 
