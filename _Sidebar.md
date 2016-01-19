@@ -15,7 +15,7 @@
 * [[Miscellaneous|Miscellaneous]]
 * [[Presentation|Presentation-ala-project]]
 * Production environments
- * [[GBIF Spain | Gbif-spain-prod]]
+ * [[GBIF Spain | Gbif-Spain-Production-environment]]
  * [[GBIF France | Gbif-france-prod]]
  * [[GBIF Portugal | Gbif-portugal-prod]]
  * [[GBIF Argentina | Gbif-argentina-prod]]
