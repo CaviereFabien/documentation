@@ -21,7 +21,7 @@ Link : [ALA for nodes](https://drive.google.com/file/d/0BzNtzhUIIHeNX2Z1TUZESV9X
 
 Speaker : Santiago Martinez de la Riva (GBIF Spain) <br />
 Type : presentation <br />
-Link :
+Link : [Biodiversity platform of GBIF Spain based on ALA](https://drive.google.com/file/d/0B40d0nSKU6fzT0VocmVGUFA1WFk/view?usp=sharing)
 
 Speaker : Dave Martin (Atlas of Living Australia)<br />
 Type : presentation <br />
