@@ -22,6 +22,6 @@ Enter a name and the URL adress of the IPT in the "enter name" part and click on
 At the end, click on "Update data resources";
 
 3. You have to 'ingest' the new data, so go to the terminal and type :  
-
-     	$sudo biocache   
-	biocache>ingest -a
+	
+    $sudo biocache
+    biocache>ingest -a
