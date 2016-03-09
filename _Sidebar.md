@@ -5,6 +5,7 @@
 * [[Software architecture|Atlas-software-architecture]]
 * [[First data resource|First-data-resource]]
 * Advanced topics
+ * [[Other ways to add data resource|Other-ways-to-add-data-resource]]
  * [[Styling the web app|Styling-the-web-app]]
  * [[Configuring generic hub|Configuring-generic-hub]]
  * [[Creating a name index|Creating-a-name-index]]
