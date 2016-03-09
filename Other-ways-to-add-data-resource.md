@@ -16,11 +16,11 @@ The data providers are organizations, individuals, and other institutions as mus
 
 To get the data they have given access to, here are the steps:
 
-3. Go on http://ala-demo.org/collectory/manage/list, click on "View all data providers" then on "Add a new DataProvider"
-Enter a name and the URL adress of the IPT in the "enter name" part and click on "Check endpoint" in the IPT integration part.
+3. Go on http://ala-demo.org/collectory/manage/list, click on "View all data providers" then on "Add a new DataProvider"   
+Enter a name and the URL adress of the IPT in the "enter name" part and click on "Check endpoint" in the IPT integration part.   
 
 At the end, click on "Update data resources";
 
 3. You have to 'ingest' the new data, so go to the terminal and type :  
-    $sudo biocache
+    $sudo biocache   
     biocache>ingest -a
