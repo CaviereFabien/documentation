@@ -23,5 +23,5 @@ At the end, click on "Update data resources";
 
 2. You have to 'ingest' the new data, so go to the terminal and type :  
 
-	$sudo biocache   
-	biocache>ingest -a 
+	`$sudo biocache   `
+	`biocache>ingest -a `
