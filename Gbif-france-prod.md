@@ -1,1 +1,3 @@
-![GBIF France architecture](documentation/GBIF_France_architecture.png)
+This is current production environment of GBIF France for the occurrence research engine (generic-hub) and metadata portal (collectory) architecture. 
+
+![GBIF France architecture](https://github.com/gbiffrance/documentation/blob/master/screenshot/GBIF_France_architecture.PNG)
