@@ -1,0 +1,1 @@
+![GBIF France architecture](documentation/GBIF_France_architecture.png)
