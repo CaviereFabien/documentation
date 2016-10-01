@@ -46,7 +46,7 @@ ansible-als -i inventories/images.als.scot ala-install/ansible/image-service.yml
 Install the single sign on authentication component.
 
 ```
-ansible-als -i inventories/auth.als.scot ala-install/ansible/auth2-standalone.yml
+ansible-als -i inventories/auth.als.scot ala-install/ansible/auth-standalone.yml
 ```
 
 ### Install sightings
