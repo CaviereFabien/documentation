@@ -24,13 +24,13 @@ export alias ansible-als='ansible-playbook --private-key ~/.ssh/XXXXXXXXX.pem -u
 This will setup the main registry for the system, the collectory.
 
 ```
-ansible-als -i ansible-inventories/als/registry.als.scot ala-install/ansible/collectory.yml
+ansible-als -i inventories/registry.als.scot ala-install/ansible/collectory.yml
 ```
 
 ### Install occurrence backend (biocache database)
 
 ```
-ansible-als -i ansible-inventories/als/occurrence-db.als.scot ala-install/ansible/biocache-backend.yml
+ansible-als -i inventories/occurrence-db.als.scot ala-install/ansible/biocache-backend.yml
 ```
 
 ### Install images service
@@ -38,7 +38,7 @@ ansible-als -i ansible-inventories/als/occurrence-db.als.scot ala-install/ansibl
 Install the image services and database backend.
 
 ```
-ansible-als -i ansible-inventories/als/images.als.scot ala-install/ansible/image-service.yml
+ansible-als -i inventories/images.als.scot ala-install/ansible/image-service.yml
 ```
 
 ### Install central authentication service
@@ -46,7 +46,7 @@ ansible-als -i ansible-inventories/als/images.als.scot ala-install/ansible/image
 Install the single sign on authentication component.
 
 ```
-ansible-als -i ansible-inventories/als/auth.als.scot ala-install/ansible/auth2-standalone.yml
+ansible-als -i inventories/auth.als.scot ala-install/ansible/auth2-standalone.yml
 ```
 
 ### Install sightings
@@ -54,8 +54,8 @@ ansible-als -i ansible-inventories/als/auth.als.scot ala-install/ansible/auth2-s
 Install the ad-hoc sightings components.
 
 ```
-ansible-als -i ansible-inventories/als/ecodata.als.scot ala-install/ansible/ecodata.yml 
-ansible-als -i ansible-inventories/als/sightings.als.scot ala-install/ansible/pigeonhole-standalone.yml 
+ansible-als -i inventories/ecodata.als.scot ala-install/ansible/ecodata.yml 
+ansible-als -i inventories/sightings.als.scot ala-install/ansible/pigeonhole-standalone.yml 
 ```
 
 ### Index server
@@ -63,7 +63,7 @@ ansible-als -i ansible-inventories/als/sightings.als.scot ala-install/ansible/pi
 This script will setup SOLR on a standalone server.
 
 ```
-ansible-als -i ansible-inventories/als/index.als.scot ala-install/ansible/solr-standalone.yml 
+ansible-als -i inventories/index.als.scot ala-install/ansible/solr-standalone.yml 
 ```
 
 ### Species pages webservices & UI (BIE)
@@ -71,16 +71,16 @@ ansible-als -i ansible-inventories/als/index.als.scot ala-install/ansible/solr-s
 This script will setup species pages and webservices on a standalone server.
 
 ```
-ansible-als -i ansible-inventories/als/species-ws.als.scot ala-install/ansible/bie-index.yml 
-ansible-als -i ansible-inventories/als/species.als.scot ala-install/ansible/bie-hub.yml 
+ansible-als -i inventories/species-ws.als.scot ala-install/ansible/bie-index.yml 
+ansible-als -i inventories/species.als.scot ala-install/ansible/bie-hub.yml 
 ```
 
 ### Biocache webservices & UI
 
 This script will setup occurrence search pages and webservices on a standalone server.
 ```
-ansible-als -i ansible-inventories/als/records-ws.als.scot ala-install/ansible/biocache-service.yml 
-ansible-als -i ansible-inventories/als/records.als.scot ala-install/ansible/biocache-hub.yml 
+ansible-als -i inventories/records-ws.als.scot ala-install/ansible/biocache-service.yml 
+ansible-als -i inventories/records.als.scot ala-install/ansible/biocache-hub.yml 
 ```
 
 ### Install UK version of the name matching index
@@ -88,5 +88,5 @@ ansible-als -i ansible-inventories/als/records.als.scot ala-install/ansible/bioc
 This script installs the name index on machines using the lucene name indexes. This would include biocache webservices, lists tool and a few other components.
 
 ```
-ansible-als -i ansible-inventories/als/name-index als-install/ansible/name-index.yml 
+ansible-als -i inventories/name-index als-install/ansible/name-index.yml 
 ```
