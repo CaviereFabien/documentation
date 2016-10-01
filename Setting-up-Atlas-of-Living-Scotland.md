@@ -17,10 +17,6 @@ To reduce typing, set an unix alias up like so which points to the PEM file that
 export alias ansible-als='ansible-playbook --private-key ~/.ssh/XXXXXXXXX.pem -u ubuntu -s'
 ```
 
-## Architecture
-
-![Arch.jpg](Arch.jpg)
-
 ## Ansible playbooks used to setup the system
 
 ### Install registry (collectory)
