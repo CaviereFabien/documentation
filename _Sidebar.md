@@ -22,4 +22,6 @@
  * [[GBIF Argentina | Gbif-argentina-prod]]
  * [[Atlas of Living Scotland | als-prod]]
  * [[Atlas of Living Australia | Atlas-of-Living-Australia-production-environment]]
+* Case studies
+ * [[Setting up Atlas of Living Scotland | Setting up Atlas of Living Scotland]]
 * [[Roadmap|RoadMap]]
