@@ -5,7 +5,7 @@
     * [[Software architecture|Atlas-software-architecture]]
     * [[First data resource|First-data-resource]]
     * [[Other ways to add data resource|Other-ways-to-add-data-resource]]
-* [[Configuration of your portal|Configuration-of-your-portal]]
+* Configuration of your portal
     * [[Styling the web app|Styling-the-web-app]]
     * [[Internationalization (i18n)|Internationalization-(i18n)]]
     * [[Configuring generic hub|Configuring-generic-hub]]
