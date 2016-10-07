@@ -24,7 +24,7 @@ You can login to the ubunto instance you've just set up:
 ![vagrant ssh](/AtlasOfLivingAustralia/documentation/wiki/img/vagrant_ssh.png)
 
 ###Memory problem###
-In case of memory issue (not enought), you can modifie the vagrant file on Vagrant/ubuntu-Trusty/Vagrantfile : 
+In case of memory issue (not enought), you can modifie the vagrant file on `Vagrant/ubuntu-Trusty/Vagrantfile` : 
 
     # these machines require some memory to operate the apps
     config.vm.provider "virtualbox" do |v|
