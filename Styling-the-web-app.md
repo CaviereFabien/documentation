@@ -74,7 +74,7 @@ and then add that module to `ApplicationResources.groovy`:
 
 ##Grails tag##
 
-Format : <g:tag_name option=”value_of_option” />
+Format : `<g:tag_name option=”value_of_option” />`
 
 The documentation of a tag name : http://docs.grails.org/latest/ref/Tags/tag_name.html
 
@@ -168,8 +168,11 @@ Here is a non-exhaustive list of Grails tags with explanations :
 
  You need to upgrade JQuery 1.8 to JQuery 1.11
 
+
  **Be careful : Some functions are depreciated.** 
+
  **For example : .live() need to be change to the .on()**
+
 
  On the Config file, you need to add the /bootstrap3/ folder to have access to image
 
