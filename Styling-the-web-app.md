@@ -16,6 +16,7 @@ The basic steps are:
 * Go to [`generic-hub`](https://github.com/AtlasOfLivingAustralia/generic-hub) page and click the "Fork" button in the top right corner of the page. Select your repository and click OK. 
 * To rename the project, click the "Settings" icon on the right side and edit the project name (e.g. `yourOrg-hub`.
 * Clone/checkout the project to your local PC
+* Move the file that you want to change from the plugin to your grails-app folder
 
 ## Create custom layout file
     cd yourOrg-hub/grails-app/views/layout
@@ -70,6 +71,112 @@ and then add that module to `ApplicationResources.groovy`:
         resource url: [dir:'css', file:'yourOrg.css']
         resource url: [dir:'js', file:'yourOrg.js']
     }
+
+##Grails tag##
+
+Format : <g:tag_name option=”value_of_option” />
+
+The documentation of a tag name : http://docs.grails.org/latest/ref/Tags/tag_name.html
+
+Here is a non-exhaustive list of Grails tags with explanations : 
+***
+>message 
+
+>Use for the internationalization, the code properties will be in the message.properties file : 
+
+>http://docs.grails.org/latest/ref/Tags/message.html
+***
+>link
+
+>Anchor that creates a HTML link. More information on this page :
+
+>http://docs.grails.org/latest/ref/Tags/link.html
+***
+>if/else
+
+>The logical if/else tag :
+
+>http://docs.grails.org/latest/ref/Tags/if.html
+>http://docs.grails.org/latest/ref/Tags/else.html
+***
+>actionSubmitImage
+
+>Generates a submit action with input type =”image” :
+
+>http://docs.grails.org/latest/ref/Tags/actionSubmitImage.html
+***
+>actionSubmit
+
+>Anchor that will create a button with a submit action. 
+>In the action part, you will be able to change the action of the button (eg: delete, sumbit, etc.) and you can have several submit actions in one form :
+
+>http://docs.grails.org/latest/ref/Tags/actionSubmit.html
+***
+>select
+
+>Generates a select field in a form :
+
+>http://docs.grails.org/latest/ref/Tags/select.html
+***
+>checkbox
+
+>Creates a checkbox field in a form :
+
+>http://docs.grails.org/latest/ref/Tags/checkBox.html
+***
+>hiddenField
+
+>Adds a hidden field on your form :
+
+>http://docs.grails.org/latest/ref/Tags/hiddenField.html
+***
+>textArea
+
+>Creates and fills a text area field on a form :
+
+>http://docs.grails.org/latest/ref/Tags/textField.html
+***
+>form
+
+>Anchor that creates and manages a form that submits to a controller :
+
+>http://docs.grails.org/latest/ref/Tags/form.html 
+***
+>textField
+
+>Creates and fills a text field of a form : 
+
+>http://docs.grails.org/latest/ref/Tags/textField.html
+***
+
+##Bootstrap 3 : tips##
+
+ Add the module bootstrap3 in your `applicationRessource.groovy` file using these commands : 
+
+    bootstrap3 {
+		resource url: [dir: 'bootstrap3/js', file: 'bootstrap.js', disposition: 'head']
+		resource url: [dir: 'bootstrap3/css', file: 'bootstrap.css', attrs: [media: 'screen, projection, print']]
+		resource url: [dir: 'bootstrap3/css', file: 'bootstrap-theme.css', attrs: [media: 'screen, projection, print']]
+	}
+
+
+ Download Bootstrap3 : `http://getbootstrap.com/getting-started/#download`
+
+ Add this folder in the `web-app` folder 
+
+ Add bootstrap3 to your `require module` tag in your layout file
+
+ You need to upgrade JQuery 1.8 to JQuery 1.11
+
+ **Be careful : Some functions are depreciated.** 
+ **For example : .live() need to be change to the .on()**
+
+ On the Config file, you need to add the /bootstrap3/ folder to have access to image
+
+        grails.resources.adhoc.patterns = ['/img/**', '/images/*', '/data/*', '/css/*', '/js/**', '/plugins/**', '/bootstrap3/css/**', '/bootstrap3/js/**', '/bootstrap3/fonts/**']
+
+        grails.resources.adhoc.includes = ['/img/**', '/images/*', '/data/*', '/css/*', '/js/**', '/plugins/**', '/bootstrap3/css/**', '/bootstrap3/js/**', '/bootstrap3/fonts/**']
+
 
 ## Custom internationalisation (i18n)
 
