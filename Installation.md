@@ -7,7 +7,7 @@ To get them, clone the ALA-install repo at <https://github.com/AtlasOfLivingAust
     $ git clone https://github.com/AtlasOfLivingAustralia/ala-install.git
     $ cd ala-install
 
-###Vagrant###
+##Vagrant##
 
     $ cd vagrant/ubuntu/
     $ vagrant up
@@ -23,7 +23,19 @@ As of 28 May 2014, you might see "default: stdin: is not a tty" in red. This doe
 You can login to the ubunto instance you've just set up:
 ![vagrant ssh](/AtlasOfLivingAustralia/documentation/wiki/img/vagrant_ssh.png)
 
-###Ansible###
+###Memory problem###
+In case of memory issue (not enought), you can modifie the vagrant file on Vagrant/ubuntu-Trusty/Vagrantfile : 
+
+    # these machines require some memory to operate the apps
+    config.vm.provider "virtualbox" do |v|
+        v.memory = 4096
+    end 
+
+then, after you have edit the file, simply start your machine : 
+    
+    vagrant up
+
+##Ansible##
 Now you're ready to configure the ubuntu server with Ansible.
 To run the Ansible playbook:
 
