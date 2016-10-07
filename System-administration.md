@@ -1,6 +1,35 @@
 In this section:
+* Page restrictions with ala-auth-plugin
+* Page restrictions using Apache2 and htpasswd
 * Backing up Cassandra data store
 * Backing up Solr index
+
+##Page restrictions with ala-auth-plugin##
+
+Available to : https://github.com/AtlasOfLivingAustralia/ala-auth-plugin 
+
+(@todo : steps to configure the plugin)
+
+##Page restrictions using Apache2 and htpasswd##
+
+First, you have to create a file for users and passwords : 
+
+    $ sudo touch /usr/local/apache/password
+
+Then, create a password for user name_user: 
+
+    $ sudo htpasswd -c /usr/local/apache/password <name_user>
+
+Modify the Apache2 configuration file (for each page you want to have restrict access) :
+
+    <Location "/manage/gbifLoadCountry”>
+    AuthType Basic
+    AuthName "Authentication Required"
+    AuthUserFile "/usr/local/apache/password"
+        Require valid-user
+        Order allow,deny
+        Allow from all
+    </Location>
 
 ##Backing up Cassandra data store##
 
