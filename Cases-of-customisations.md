@@ -18,6 +18,9 @@ This page provides index to cases of customisations made to the generic-hub web 
 
 > 1. General customizations:
 
+> * The menu is add in the layout file ; layoutBody : call the other layouts to display the page. In this way, the header et footer layout are the same on all the website.
+
+
 > * add 2 filters to the collectory public page: paleontology and fungi.
 
 >Here are the files (on the web-app folder) when the modifications are be made : 
