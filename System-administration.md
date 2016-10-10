@@ -1,6 +1,7 @@
 In this section:
 * Page restrictions with ala-auth-plugin
 * Page restrictions using Apache2 and htpasswd
+* Page restrictions using Ansible
 * Backing up Cassandra data store
 * Backing up Solr index
 
@@ -30,6 +31,10 @@ Modify the Apache2 configuration file (for each page you want to have restrict a
         Order allow,deny
         Allow from all
     </Location>
+
+##Page restrictions using Ansible##
+
+(@todo : steps or link to an other wiki page)
 
 ##Backing up Cassandra data store##
 
