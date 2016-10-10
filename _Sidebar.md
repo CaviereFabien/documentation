@@ -14,6 +14,7 @@
     * [[System administration|System-administration]]
     * [[Location of the logs|Location-of-the-logs]]
     * [[ALA4R|ALA4R]]
+    * [[Image Service|image-service]]
 * Production environments
     * [[GBIF Spain | Gbif-Spain-Production-environment]]
     * [[GBIF France | GBIF-France-production-environment]]
