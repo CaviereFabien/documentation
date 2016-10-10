@@ -4,6 +4,9 @@ The client webapp (e.g. generic-hub) inherits some internationalisation properti
 
 [http://localhost:8080/generic-hub/messages/i18n/messages_en-US.properties](http://localhost:8080/generic-hub/messages/i18n/messages_en-US.properties)
 
+__Warning__ : There are differences between the English sentence structuration and the French one (same as Spanish)
+To prevent this problem, you have to make modifications directly on the code and create new terms in messages.properties
+
 ## i18n properties files
 Grails i18n files are found in:
 
