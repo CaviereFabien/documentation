@@ -14,7 +14,10 @@ Grails i18n files are found in:
 
 and follow the Java naming convention of `messages_xx_XX.properties`. The ALA is keen to get contributions for non-English translations, either via pull requests to biocache-hubs project or by sending us a patch file or individual properties files.
 
-**Note:** If you want to contribute in the i18n project, please visit the page of the project: [https://crowdin.com/project/ala-i18n/](https://crowdin.com/project/ala-i18n/) and request your participation to one of managers.
+**Note:** 
+ * If you want to contribute in the i18n project, please visit the page of the project: [https://crowdin.com/project/ala-i18n/](https://crowdin.com/project/ala-i18n/) and request your participation to one of managers.
+
+ * If you use Crowdin on your website, don't forget to add the Crowdin logo on your pages.
 
 ## How to include language selector in your project:
 
