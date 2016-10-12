@@ -19,7 +19,7 @@
 * Production environments
     * [[GBIF Spain | Gbif-Spain-Production-environment]]
     * [[GBIF France | GBIF-France-production-environment]]
-    * [[GBIF Portugal | Gbif-portugal-prod]]
+    * [[GBIF Portugal | Gbif-Portugal-production-environment]]
     * [[GBIF Argentina | Gbif-argentina-prod]]
     * [[Atlas of Living Scotland | als-prod]]
     * [[Atlas of Living Australia | Atlas-of-Living-Australia-production-environment]]   
