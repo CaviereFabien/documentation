@@ -1,4 +1,4 @@
-Logs files can be very helpfull when you have a issue.
+Logs files can be very helpfull when you have an issue.
 
 Here are the locations of all the log files : 
 
