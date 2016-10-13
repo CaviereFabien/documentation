@@ -4,6 +4,7 @@
     * [[Presentations|Presentation-ala-project]]
     * [[ALA Community|ALA-Community]]
 * ALA Demo / First steps for install a ALA portal
+    * [[Requirements|Essential-tools-and-environmental-requirements]]
     * [[Installation|Installation]]
     * [[First data resource|First-data-resource]]
     * [[Other ways to add data resource|Other-ways-to-add-data-resource]]
