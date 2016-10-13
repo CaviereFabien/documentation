@@ -1,8 +1,10 @@
 **Index**
 * [[Wiki home|Home]]
+* General information
+    * [[Presentations|Presentation-ala-project]]
+    * [[ALA Community|ALA-Community]]
 * ALA Demo / First steps for install a ALA portal
     * [[Installation|Installation]]
-    * [[Software architecture|Atlas-software-architecture]]
     * [[First data resource|First-data-resource]]
     * [[Other ways to add data resource|Other-ways-to-add-data-resource]]
 * Configuration of your portal
@@ -24,7 +26,6 @@
     * [[Atlas of Living Scotland | als-prod]]
     * [[Atlas of Living Australia | Atlas-of-Living-Australia-production-environment]]   
 * ALA portal in production
-    * [[Presentations|Presentation-ala-project]]
     * [[Building from source|Building-from-source]]
     * [[Cases of customisations|Cases-of-customisations]]
     * Case studies
