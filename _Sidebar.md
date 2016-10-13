@@ -12,7 +12,7 @@
     * [[Creating a name index|Creating-a-name-index]]
     * [[Data management|Data-management]]
     * [[System administration|System-administration]]
-    * [[Location of the logs|Location-of-the-logs]]
+    * [[Logs Location|Logs-location]]
     * [[ALA4R|ALA4R]]
     * [[Image Service|image-service]]
     * [[Other stuff|other-stuff]]
