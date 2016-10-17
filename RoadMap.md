@@ -13,3 +13,7 @@
 5. Upgrade [biocache-hubs](https://github.com/AtlasOfLivingAustralia/biocache-hubs) and [generic-hub](https://github.com/AtlasOfLivingAustralia/generic-hub) to use **Grails 2.4.x** (late 2014)
 
 6. Ansible script support for Ubuntu 16.
+
+7. Upgrade to SOLR 6 - this is yet to be scheduled.
+
+8. Upgrade front end apps to Bootstrap4 - this is yet to be scheduled.
