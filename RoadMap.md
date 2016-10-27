@@ -10,7 +10,7 @@
 
 5. [Spatial portal UI](https://github.com/AtlasOfLivingAustralia/spatial-hub) and [Spatial services](https://github.com/AtlasOfLivingAustralia/spatial-service) rewrite - Work on this has commenced and should be finished by early 2017.
 
-5. Upgrade [biocache-hubs](https://github.com/AtlasOfLivingAustralia/biocache-hubs) and [generic-hub](https://github.com/AtlasOfLivingAustralia/generic-hub) to use **Grails 2.4.x** (late 2014)
+5. Upgrade [biocache-hubs](https://github.com/AtlasOfLivingAustralia/biocache-hubs) and [generic-hub](https://github.com/AtlasOfLivingAustralia/generic-hub) to use **Grails 2.4.x** (Grails-3.2.1 is latest version) (late 2014?)
 
 6. Ansible script support for Ubuntu 16.
 
