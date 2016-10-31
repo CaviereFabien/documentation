@@ -12,7 +12,7 @@
 
 5. Upgrade [biocache-hubs](https://github.com/AtlasOfLivingAustralia/biocache-hubs) and [generic-hub](https://github.com/AtlasOfLivingAustralia/generic-hub) to use **Grails 2.4.x** (Grails-3.2.1 is latest version) (late 2014?)
 
-6. Ansible script support for Ubuntu 16.
+6. Ansible script support for Ubuntu 16.04.
 
 7. Upgrade to SOLR 6 - this is yet to be scheduled.
 
