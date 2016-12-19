@@ -33,5 +33,5 @@
         * [[Setting up Atlas of Living Scotland | Setting up Atlas of Living Scotland]]
 * [[Miscellaneous|Miscellaneous]]
 * Trouble shooting
-    * [[ CorruptSSTableException | Dealing-with-CorruptSSTableException]
+    * [[ CorruptSSTableException | Dealing-with-CorruptSSTableException]]
 * [[Roadmap|RoadMap]]
