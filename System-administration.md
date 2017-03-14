@@ -5,13 +5,13 @@ In this section:
 * Backing up Cassandra data store
 * Backing up Solr index
 
-##Page restrictions with ala-auth-plugin##
+## Page restrictions with ala-auth-plugin ##
 
 Available to : https://github.com/AtlasOfLivingAustralia/ala-auth-plugin 
 
 (@todo : steps to configure the plugin)
 
-##Page restrictions using Apache2 and htpasswd##
+## Page restrictions using Apache2 and htpasswd ##
 
 First, you have to create a file for users and passwords : 
 
@@ -32,11 +32,11 @@ Modify the Apache2 configuration file (for each page you want to have restrict a
         Allow from all
     </Location>
 
-##Page restrictions using Ansible##
+## Page restrictions using Ansible ##
 
 (@todo : steps or link to an other wiki page)
 
-##Backing up Cassandra data store##
+## Backing up Cassandra data store ##
 
 Backing up Cassandra is essentially making a snapshot of occurrence store.
 
@@ -44,7 +44,7 @@ Cassandra comes with some command-line tools that we use for this task:
 * cassandra-cli
 * nodetool
 
-###Synopsis on Cassandra occurrence store###
+### Synopsis on Cassandra occurrence store ###
 Where indexed occurrence data is stored:
 
     $ cd /data/cassandra/data/occ
@@ -63,7 +63,7 @@ It's also possible if you want to print out a specific record:
 
     [default@occ] get occ where uuid = 'e47e0e31-ff9c-4f31-b598-34f452cb023f';
 		
-###Making a snapshot###
+### Making a snapshot ###
 Assuming it's the first time we make a snapshot, this directory should be empty before we do:
 
     $ cd /data/cassandra/data/occ/occ && ls
@@ -83,15 +83,15 @@ A directory `1406163740504` is created under `/data/cassandra/data/occ/occ/snaps
 
 (@todo explain location when biocache sampling is running)
 
-###Pointing to a remote Cassandra instance###
+### Pointing to a remote Cassandra instance ###
 Chances are you want to use a remote Cassandra instance. To do this, update `listen_address: localhost` in `/etc/cassandra/cassandra.yaml` by replacing 'localhost' with the domain name of the remote Cassandra.
 
-##Backing up Solr index##
+## Backing up Solr index ##
 (@todo Synopsis)
 
 The Solr index is stored at `/data/solr/biocache/data`. Looking inside the `data` directory you see `index` and `tlog` directories. `data` is the unit you want to back up.
 
-###Making a copy of Solr index###
+### Making a copy of Solr index ###
 
     $ cd /data/solr/biocache
     $ sudo mkdir solr-index-backup
