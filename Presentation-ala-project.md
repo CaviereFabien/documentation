@@ -2,12 +2,12 @@ You will find in this page, different presentations or posters made by nodes usi
 
 ![](http://ala.googlecode.com/files/ArchitectureFeb2010.png)
 
-#####Paris Workshop July 2015#####
+##### Paris Workshop July 2015 
 * [ALA Architecture presentation](https://docs.google.com/presentation/d/165UxDZgvCmpzdgePfKUfOQ2Pf9xoCLJMLX7wwr8NrV4/edit#slide=id.g9bc31759a_0_2)
 * [Operations presentation](https://docs.google.com/presentation/d/1CBE5hgQj5meLuPXoamazmmCRbkN5BL0iBL2_tcRZojc/edit#slide=id.g9bc31759a_0_2)
 
 
-#####TDWG 2015 - Nairobi, Kenya - 09/28/2015 to 10/02/2015#####
+##### TDWG 2015 - Nairobi, Kenya - 09/28/2015 to 10/02/2015
 
 Speaker : Marie-Elise Lecoq (GBIF France) <br />
 Type : presentation <br />
