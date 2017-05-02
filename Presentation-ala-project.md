@@ -1,6 +1,5 @@
 You will find in this page, different presentations or posters made by nodes using Atlas of Living Australia modules in their countries about different topics links to Atlas of Living Australia modules. 
 
-![](http://ala.googlecode.com/files/ArchitectureFeb2010.png)
 
 ##### Paris Workshop July 2015 
 * [ALA Architecture presentation](https://docs.google.com/presentation/d/165UxDZgvCmpzdgePfKUfOQ2Pf9xoCLJMLX7wwr8NrV4/edit#slide=id.g9bc31759a_0_2)
