@@ -71,7 +71,7 @@ Create the provider map between the data resource, the institution and/or the co
 
 `http://URL_to_your_ALA_portal/providerMap/list`
 
-# Ingest of resources#
+# Ingest of resources #
 
 ## Dataset ##
 
