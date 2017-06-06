@@ -71,13 +71,13 @@ Create the provider map between the data resource, the institution and/or the co
 
 `http://URL_to_your_ALA_portal/providerMap/list`
 
-#Ingest of resources#
+# Ingest of resources#
 
 ## Dataset ##
 
 ***
 
-###In case of a small dataresource ( < 50 000 records)###
+### In case of a small dataresource ( < 50 000 records)###
 
 1 Connect to the server where your biocache tool is hosted
 
