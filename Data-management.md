@@ -77,7 +77,7 @@ Create the provider map between the data resource, the institution and/or the co
 
 ***
 
-### In case of a small dataresource ( < 50 000 records)###
+### In case of a small dataresource ( < 50 000 records) ###
 
 1 Connect to the server where your biocache tool is hosted
 
