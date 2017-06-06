@@ -6,12 +6,12 @@ This page will cover the process of management of data resource :
 * Creating the mapping
 * Ingest of resources
 
-# How to update data resource#
+# How to update data resource
 
 See the [[First data resource|First-data-resource]] and [[Other ways to add data resource|Other-ways-to-add-data-resource]] pages.
 
 
-# Provider codes#
+# Provider codes
 
 Help to map the dataResource to the institution and/or the collection 
 
