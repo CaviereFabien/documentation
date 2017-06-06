@@ -6,19 +6,19 @@ This page will cover the process of management of data resource :
 * Creating the mapping
 * Ingest of resources
 
-#How to update data resource#
+# How to update data resource#
 
 See the [[First data resource|First-data-resource]] and [[Other ways to add data resource|Other-ways-to-add-data-resource]] pages.
 
 
-#Provider codes#
+# Provider codes#
 
 Help to map the dataResource to the institution and/or the collection 
 
 
 ***
 
-###SOLUTION 1 (_Solution use on GBIF France portal_) : ###
+### SOLUTION 1 (_Solution use on GBIF France portal_) : ###
 
 >Download the DwC-A in local
 
@@ -34,8 +34,8 @@ __IMPORTANT :__ works with resources having a number of occurrences lower than t
 
 ***
 
-###SOLUTION 2 : ###
-
+### SOLUTION 2 : ###
+ 
 >You can also run the indexation, there is an info line with this information :
 
 >INFO : [DataLoader] - The current institution codes for the data resource
@@ -47,7 +47,7 @@ __IMPORTANT :__ works with resources having a number of occurrences lower than t
 ***
 
 
-#Entering metadata#
+# Entering metadata #
 
 Fill in the metadata for the newly created dataresource. 
 
@@ -61,7 +61,7 @@ Link the dataResource to an institution :
 
 Don’t forget to go back to the dataResource page to fill in the record consumers if the collection or/and institution doesn’t exist. 
 
-#Creating the mapping#
+# Creating the mapping #
 
 If the specific providerCodes do not exist, enter them using “Manage provider code” page : 
 
@@ -73,7 +73,7 @@ Create the provider map between the data resource, the institution and/or the co
 
 #Ingest of resources#
 
-##Dataset##
+## Dataset ##
 
 ***
 
@@ -97,7 +97,7 @@ __Important :__ you will not have logs if you don’t specify the out file.
 
 ***
 
-###In case of a big dataresource ( > 50 000 records and < 8 millions)###
+### In case of a big dataresource ( > 50 000 records and < 8 millions) ###
 
 1 Connect to the server where your biocache tool is hosted
 
@@ -118,7 +118,7 @@ You can also run directly on the terminal, the command lines above with
 
 ***
 
-###In case of a really big dataresource ( DwC-A size > 1 Go)###
+### In case of a really big dataresource ( DwC-A size > 1 Go) ###
 
  1 Upload a modified DwC-Archive with 15 occurrences in order to create the dataset into the system.
 
@@ -136,7 +136,7 @@ You can also run directly on the terminal, the command lines above with
  You need to have a server with at least the size of your DwC-Archive in RAM. 
 
 
-##All of your resources##
+## All of your resources ##
 
 You can run one command line (as sudo user):
 
