@@ -1,4 +1,9 @@
+# Styling the web app
+
+@todo : to be completed
+
 ## Overview
+
 This page will cover the process of providing custom styling for the [`generic-hub`](https://github.com/AtlasOfLivingAustralia/generic-hub) Grails web application. You should have a reasonable level of knowledge of HTML and CSS as well as a basic understanding of [Grails](http://grails.org) and [Bootstrap](http://getbootstrap.com/2.3.2). Helpful links:
 * [Grails documentation](http://grails.org/doc/2.3.x/guide/)
 * [Bootstrap CSS framework](http://getbootstrap.com/2.3.2/getting-started.html)
@@ -72,7 +77,7 @@ and then add that module to `ApplicationResources.groovy`:
         resource url: [dir:'js', file:'yourOrg.js']
     }
 
-##Grails tag##
+## Grails tag ##
 
 Format : `<g:tag_name option=”value_of_option” />`
 
@@ -149,7 +154,7 @@ Here is a non-exhaustive list of Grails tags with explanations :
 >http://docs.grails.org/latest/ref/Tags/textField.html
 ***
 
-##Bootstrap 3 : tips##
+## Bootstrap 3 : tips ##
 
  Add the module bootstrap3 in your `applicationRessource.groovy` file using these commands : 
 

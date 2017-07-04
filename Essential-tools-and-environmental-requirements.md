@@ -1,3 +1,5 @@
+# Essential tools and environnemental requirements
+
 The ALA Portal requires several components like Java, Tomcat and Cassandra, as well as web applications that composes the ALA Portal. These softwares can be automatically installed and configured by an [Ansible](http://www.ansible.com/home) playbook, a type of script, developed together with the project. So if you've got an Ubuntu Linux instance up-and-running, you can use Ansible playbooks in the [ala-install](https://github.com/AtlasOfLivingAustralia/ala-install) project to automatically set up and configure the Linux instance into an ALA Portal.
 
 Besides Ansible playbooks, if you don't have a Linux instance ready, or just want to set up a clean on for this ALA Portal, you can consider the following two tools to create a clean instance:
@@ -26,5 +28,5 @@ However, in this guide, the [Vagrantfile](https://github.com/AtlasOfLivingAustra
 
 Now you're ready to start the actual installation of the ALA portal.
 
-####Tested environment####
+## Tested environment
 * Vagrant 1.6.2 + VirtualBox v4.3.12 r93733 + Ansible 1.6.1 on Mac OS X 10.8.5.

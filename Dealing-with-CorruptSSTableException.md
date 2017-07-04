@@ -1,4 +1,8 @@
-# Procedure
+# Dealing with CorruptSSTableException
+
+@todo : to be completed
+
+## Procedure
 
 If you encounter this exception during data loading or processing, follow these steps
 

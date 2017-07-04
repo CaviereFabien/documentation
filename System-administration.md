@@ -1,3 +1,5 @@
+# System administration
+
 In this section:
 * Page restrictions with ala-auth-plugin
 * Page restrictions using Apache2 and htpasswd

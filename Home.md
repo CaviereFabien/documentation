@@ -4,7 +4,7 @@ This wiki documents the components of the Atlas of Living Australia that are pro
 
 This is an open project, and users are encouraged to get involved - please [use the mailing list](http://lists.gbif.org/mailman/listinfo/ala-portal) to request access to edit this wiki or ask any questions.
 
-#### Principles ####
+# Principles
 1. We maintain documentation mainly by using the wiki. To clone the wiki repo, you do:
 
         $ git clone https://github.com/AtlasOfLivingAustralia/documentation.wiki.git

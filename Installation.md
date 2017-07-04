@@ -1,3 +1,5 @@
+# Installation
+
 You need to have a Vagrant file and an Ansible playbook in order to guide Vagrant and Ansible for the automation.
 
 The whole installation, on an INTEL i7 2.66Ghz MacBook Pro (late 2010) with SSD, takes about 30 mins to finish. This includes time for transferring war files over the internet.
@@ -7,7 +9,7 @@ To get them, clone the ALA-install repo at <https://github.com/AtlasOfLivingAust
     $ git clone https://github.com/AtlasOfLivingAustralia/ala-install.git
     $ cd ala-install
 
-##Vagrant##
+## Vagrant
 
     $ cd vagrant/ubuntu/
     $ vagrant up
@@ -23,7 +25,7 @@ As of 28 May 2014, you might see "default: stdin: is not a tty" in red. This doe
 You can login to the ubunto instance you've just set up:
 ![vagrant ssh](/AtlasOfLivingAustralia/documentation/wiki/img/vagrant_ssh.png)
 
-###Memory problem###
+### Memory problem
 In case of memory issue (not enought), you can modifie the vagrant file on `Vagrant/ubuntu-Trusty/Vagrantfile` : 
 
     # these machines require some memory to operate the apps
@@ -35,7 +37,7 @@ then, after you have edit the file, simply start your machine :
     
     vagrant up
 
-##Ansible##
+## Ansible
 Now you're ready to configure the ubuntu server with Ansible.
 To run the Ansible playbook:
 
@@ -56,7 +58,7 @@ The ALA demo portal should be accessible now. For convenience, as in the Vagrant
 
 Congratulations! Your demo ALA portal is up and running.
 
-####Terminating the VM####
+#### Terminating the VM
 When you're happy with the test installation, chances are you need a break so you need to stop the virtual machine. To do so:
 
     $ cd ../vagrant/ubuntu/

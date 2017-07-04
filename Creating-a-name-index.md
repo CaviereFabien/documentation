@@ -1,8 +1,8 @@
-##Overview##
+# Creating a name index
 
 Name indexing happens during the "processing" phase of ingestion. If a customised/national checklist is required, a new name index can be created.
 
-###Playbook nameindexer-standalone.yml###
+## Playbook nameindexer-standalone.yml
 Assuming you have an instance of ALA portal running, when you need to use your own name index, or update the existing name index, you want to run it separately so it doesn't potentially break the running service.
 
 So as the tutorial of building a customised name index, we start from a vanilla vagrant ubuntu box.
@@ -75,10 +75,10 @@ But if it's more than that, you should do:
 
     biocache> bulk-processor
 
-###Supported checklist formats###
+## Supported checklist formats
 To be written.
 
-###About homonyms###
+## About homonyms
 The name indexing by default looks for `/data/lucene/sources/IRMNG_DWC_HOMONYMS` to analyse homonyms. If you have alternative homonyms to detect against, run `nameindexer` with `-irmng` flag and point to your own extracted homonym DwC-A.
 
 To avoid obvious homonym indexing error, you can provide taxonomy hints in the Collectory when you edit the metadata of data resources by providing a taxonomy hint. The URL would be `/collectory/dataResource/edit/[druid]?page=%2Fshared%2FeditTaxonomyHints`. (Replace [druid] with your own.)

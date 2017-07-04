@@ -1,37 +1,52 @@
 **Index**
 * [[Wiki home|Home]]
-* General information
+* Community
     * [[Presentations|Presentation-ala-project]]
     * [[ALA Community|ALA-Community]]
+    * [[Roadmap|RoadMap]]
+* ALA portals in production
+    * [[Atlas of Living Australia|ALA-production-environment]]  
+    * [[Atlas of Living Scotland|ALS-production-environment]]
+    * [[GBIF Argentina|GBIF-Argentina-production-environment]] 
+    * [[GBIF France|GBIF-France-production-environment]]
+    * [[GBIF Portugal|GBIF-Portugal-production-environment]]
+    * [[GBIF Spain|GBIF-Spain-production-environment]]
+* ALA modules
+    * [[Modules informations.md|Modules_informations]]
+    * [[ALA API|ALA-API]]
+    * [[ALA4R|ALA4R]]
+    * [[Image Service|Image-service]]
 * ALA Demo / First steps for install a ALA portal
     * [[Requirements|Essential-tools-and-environmental-requirements]]
     * [[Installation|Installation]]
-    * [[First data resource|First-data-resource]]
     * [[Other ways to add data resource|Other-ways-to-add-data-resource]]
-* Configuration of your portal
-    * [[Styling the web app|Styling-the-web-app]]
-    * [[Internationalization (i18n)|Internationalization-(i18n)]]
-    * [[Configuring generic hub|Configuring-generic-hub]]
+* ALA's Data management
+    * [[ALA Vocabulary|ALA-Vocabulary]]
+    * [[Data Paths|Data-paths]]
+    * [[Upload data|Upload-data]]
+    * [[Links|Links]]
+    * [[Biocache ingest|Biocache-ingest]]
+    * [[GBIF-ALA links|GBIF-ALA-links]]
     * [[Creating a name index|Creating-a-name-index]]
-    * [[Data management|Data-management]]
-    * [[System administration|System-administration]]
+* ALA DataHub
+* ALA Customization
+    * [[Generic hub|Generic-hub]]
+    * [[GitHub good pratices|Github-good-pratices]]
+* [[ALA Internationalization (i18n)|ALA Internationalization-(i18n)]]
+    * [[Sentence structures|Sentence-structures]]
+    * [[Crowdin|Crowdin]]
+    * [[Accents|Accents]]
+    * [[Multilingual management|Multilingual management]]
+* ALA Administration system
+    * [[Back-up good pratices|Back-up-good-pratices]]
     * [[Logs Location|Logs-location]]
-    * [[ALA4R|ALA4R]]
-    * [[Image Service|image-service]]
-    * [[Other stuff|other-stuff]]
-* Production environments
-    * [[GBIF Spain | Gbif-Spain-Production-environment]]
-    * [[GBIF France | GBIF-France-production-environment]]
-    * [[GBIF Portugal | Gbif-Portugal-production-environment]]
-    * [[GBIF Argentina | Gbif-argentina-prod]]
-    * [[Atlas of Living Scotland | als-prod]]
-    * [[Atlas of Living Australia | Atlas-of-Living-Australia-production-environment]]   
-* ALA portal in production
-    * [[Building from source|Building-from-source]]
-    * [[Cases of customisations|Cases-of-customisations]]
-    * Case studies
-        * [[Setting up Atlas of Living Scotland | Setting up Atlas of Living Scotland]]
-* [[Miscellaneous|Miscellaneous]]
-* Trouble shooting
-    * [[ CorruptSSTableException | Dealing-with-CorruptSSTableException]]
-* [[Roadmap|RoadMap]]
+    * [[How to make Back-up|How-to-make-Back-up]]
+        * [[CorruptSSTableException | Dealing-with-CorruptSSTableException]]
+    * [[MySQL modification|MySQL-modification]]
+    * [[Google API|Google-API]]
+    * [[Protected access without CAS|Protected-access-without-CAS]]
+    * [[ALA tools inventory|ALA-tools-inventory]]
+* ALA contribution to main project
+    * [[Good pratices for contribute|Good-pratices-contribute]]
+* ALA study Case
+    * [[Setting up Atlas of Living Scotland | Setting up Atlas of Living Scotland]]

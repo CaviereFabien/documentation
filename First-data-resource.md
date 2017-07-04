@@ -1,8 +1,10 @@
+# First data resource
+
 One of the task you might want to do immediately after the installation is to upload data and see how the ALA site present the data.
 
 Here are some preliminary steps to achieve this:
 
-###Request a data download from the GBIF Portal###
+## Request a data download from the GBIF Portal
 Assuming the test installation is done by following the installation guide. We should be able to navigate to the admin interface by the following URL: <http://10.1.1.2/collectory/manage/list>.
 
 At the very bottom of the page, two features are available for this task: 1) [Add all GBIF resource](http://10.1.1.2/collectory/manage/gbifLoadCountry) for a country; 2) [Upload GBIF file](http://10.1.1.2/collectory/dataResource/gbifUpload).
@@ -12,7 +14,8 @@ At the very bottom of the page, two features are available for this task: 1) [Ad
 For the purpose of testing, we want to see occurrence point on the map later. So instead of getting country data dump from GBIF Portal directly, we could instead manually create a DwC-A with search criteria that include geo-referenced occurrences. An example being [geo-referenced holotype specimens in Denmark](http://www.gbif.org/occurrence/search?HAS_COORDINATE=true&SPATIAL_ISSUES=false&COUNTRY=DK&TYPE_STATUS=LECTOTYPE), which only contains 7 records and the archive here:
 
 [0008542-140429114108248.zip](/AtlasOfLivingAustralia/documentation/wiki/files/0008542-140429114108248.zip)
-###Create a data resource on the ALA site###
+
+## Create a data resource on the ALA site
 
 Now,
 

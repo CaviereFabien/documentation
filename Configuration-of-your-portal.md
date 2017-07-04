@@ -1,1 +1,0 @@
-TODO : resume of the different point of this section, what informations can be found on this section

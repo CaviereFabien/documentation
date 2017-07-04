@@ -1,16 +1,18 @@
+# Other ways to add data resource
+
 As we saw in the "First data resource" topic, you can retrieve all the GBIF resources of a country.
 There is also the possibility of using a data provider to get data resources.
 
 Here are the steps for these two methods:
 
-### Add all GBIF resource for a country ###
+## Add all GBIF resource for a country
 
 A new tool makes possible to download all the GBIF resources for a given country. In order to do that, you must:
 
 1. In the form, fill in the desired country, your GBIF.org identifiers (used to log in http://www.gbif.org/) and the number of resources required.
 1. You should get all the resources of this country automatically downloaded with this tool.
 
-### Data providers ###
+## Data providers
 
 The data providers are organizations, individuals, and other institutions as museums that provide access to some of their data.
 
