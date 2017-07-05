@@ -76,7 +76,7 @@ But if it's more than that, you should do:
     biocache> bulk-processor
 
 ## Supported checklist formats
-To be written.
+@todo : To be written.
 
 ## About homonyms
 The name indexing by default looks for `/data/lucene/sources/IRMNG_DWC_HOMONYMS` to analyse homonyms. If you have alternative homonyms to detect against, run `nameindexer` with `-irmng` flag and point to your own extracted homonym DwC-A.

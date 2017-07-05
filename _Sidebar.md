@@ -1,8 +1,8 @@
 **Index**
 * [[Wiki home|Home]]
 * Community
-    * [[Presentations|Presentation-ala-project]]
     * [[ALA Community|ALA-Community]]
+    * [[Presentations|Presentation-ala-project]]
     * [[Roadmap|RoadMap]]
 * ALA portals in production
     * [[Atlas of Living Australia|ALA-production-environment]]  

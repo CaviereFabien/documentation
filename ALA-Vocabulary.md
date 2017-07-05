@@ -1,4 +1,4 @@
-# ALA API
+# ALA Vocabulary
 
 @todo : to be completed
 

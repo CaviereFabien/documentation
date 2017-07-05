@@ -1,6 +1,6 @@
 # Modules informations
 
-@todo : to be completed
+@todo : to be completed with other general informations
 
 ## General Recommendation :
 

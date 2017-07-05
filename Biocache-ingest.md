@@ -1,6 +1,6 @@
 # Biocache ingest
 
-@todo : to be completed
+@todo : to be completed ?
 
 ## Ingest of resources
 

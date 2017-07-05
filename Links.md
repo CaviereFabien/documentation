@@ -1,8 +1,6 @@
 # Links
 
-@todo : to be completed
-
-@todo : Mapping data ressource - collection - institution
+@todo : to be completed ?
 
 ## Provider codes
 
